@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title tagex-i18n="en:bookstores_title"></title>
+		<style type="text/css" rel="stylesheet" tagex-embed-resource="site/site.css"></style>
+		<script type="text/javascript" tagex-embed-resource="site/site.js"></script>
+		<base href="/">
+	</head>
+	<body>
+		<main>
+			<header>
+				<h1 tagex-i18n="en:bookstores_title"></h1>
+				<hr/>
+			</header>
+			<section>
+				<ul>
+					<li tagex-content-provider="getBookStores">
+						<span tagex-content-request="getTitle"></span>
+						<ul>
+							<li tagex-content-provider="getStoreCategories">
+								<a tagex-content-request="toString"></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+		</main>
+	</body>
+</html>

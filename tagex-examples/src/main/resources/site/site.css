@@ -1,0 +1,12 @@
+body {margin: 0; padding: 0; font-family: Verdana,Geneva,sans-serif; font-size: 16px;}
+header {color: #a8a8a8; }
+
+hr{ color: #aba2ff; }
+a{ text-decoration: none; font-weight: bold; color: black; font-family: Impact, Charcoal, sans-serif; }
+a:hover{ font-weight: bold; color: #ffd800; }
+p{ margin: 1%; }
+
+h1 {margin:2%;}
+h3 {margin:1%;}
+ul {padding: 1%; padding-left: 3%; }
+li {padding: 1%; list-style-type: square; }

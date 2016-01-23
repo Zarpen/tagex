@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title tagex-i18n="en:book_title"></title>
+		<style type="text/css" rel="stylesheet" tagex-embed-resource="site/site.css"></style>
+		<script type="text/javascript" tagex-embed-resource="site/site.js"></script>
+		<base href="/">
+	</head>
+	<body>
+		<main>
+			<header>
+				<h1 tagex-i18n="en:book_title"></h1>
+				<hr/>
+			</header>
+			<section tagex-content-provider="getBook">
+				<h3 tagex-content-request="getTitle"></h3>
+				<p tagex-i18n="en:book_authors"></p>
+				<ul>
+					<li tagex-content-provider="getAuthors">
+						<span tagex-content-request="toString"></span>
+					</li>
+				</ul>
+				<br/>
+				<p><a tagex-i18n="en:go_back"></a></p>
+			</section>
+		</main>
+	</body>
+</html>
