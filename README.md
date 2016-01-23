@@ -12,8 +12,6 @@ TagEx — Uses
 
 TagEx can be used to many open purposes, here we explain some.
 
-TagEx can be used to many open purposes, here we explain some.
-
 - Processing of documents based upon tags
 - Embedded document generation
 - Simple template engine, or integration with one of the many available
